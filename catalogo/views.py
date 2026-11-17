@@ -31,7 +31,8 @@ class ArticuloUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     success_url = reverse_lazy('lista')
     success_message = "Artículo actualizado correctamente"
 
-class ArticuloDeleteView(LoginRequiredMixin, DeleteView):
+class ArticuloDeleteView(LoginRequiredMixin, SuccessMessageMixin, DeleteView):
     model = Articulo
     template_name = 'catalogo/confirmar_eliminar.html'
     success_url = reverse_lazy('lista')
+    success_message = "Artículo eliminado correctamente "
