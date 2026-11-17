@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tienda_futbol',
         'USER': 'root',
-        'PASSWORD': 'TU_PASSWORD_AQUI',
+        'PASSWORD': '65495706',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
@@ -137,8 +137,6 @@ from pathlib import Path
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'lista'
 LOGOUT_REDIRECT_URL = 'lista'
-
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
-
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
