@@ -1,4 +1,4 @@
-﻿[
+[
 {
     "model": "catalogo.categoria",
     "pk": 1,
@@ -13,7 +13,7 @@
     "pk": 2,
     "fields": {
         "nombre": "Zapatos de Futbol",
-        "descripcion": "Calzado deportivo especializado para f·tbol 11, futsal y cÚsped sintÚtico.",
+        "descripcion": "Calzado deportivo especializado para futbol 11, futsal y c┌sped sint┌tico.",
         "activa": true
     }
 },
@@ -31,7 +31,7 @@
     "pk": 4,
     "fields": {
         "nombre": "Accesorios",
-        "descripcion": "Implementos complementarios como canilleras, guantes de arquero, medias y mßs.",
+        "descripcion": "Implementos complementarios como canilleras, guantes de arquero, medias y mas.",
         "activa": true
     }
 },
@@ -43,7 +43,8 @@
         "nombre": "Camiseta Local Real Madrid 26/27",
         "precio": "79990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/camiseta_real_madrid_5JXncvV.png"
     }
 },
 {
@@ -54,7 +55,8 @@
         "nombre": "Camiseta Local Universidad de Chile 26",
         "precio": "69990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/Camiseta_Local_Universidad_de_Chile_26_1kj45BE.png"
     }
 },
 {
@@ -62,10 +64,11 @@
     "pk": 3,
     "fields": {
         "categoria": 2,
-        "nombre": "Zapatos de F·tbol F50 Hyperfast Club Terreno Firme/Multiterreno",
+        "nombre": "Zapatos de Futbol F50 Hyperfast Club Terreno Firme/Multiterreno",
         "precio": "57990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/zapatos_F50_LbZOnua.png"
     }
 },
 {
@@ -73,10 +76,11 @@
     "pk": 4,
     "fields": {
         "categoria": 2,
-        "nombre": "Zapatos de futbol Goletto IX Pasto SintÚtico",
+        "nombre": "Zapatos de futbol Goletto IX Pasto Sintetico",
         "precio": "49990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/Zapatos_de_futbol_Goletto_IX_Pasto_Sintetico_Negro_IH0085_01_00_standard_hover_UJurxdo.jpg"
     }
 },
 {
@@ -87,7 +91,8 @@
         "nombre": "Pelota De Futbol Stellar Cup Puma",
         "precio": "24990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/pelota_stellarCup_MAQBTaZ.png"
     }
 },
 {
@@ -98,7 +103,8 @@
         "nombre": "Balon Futbol 7 Futbolito Revolucion Logo Anf7 N°5 Kelme Anf7 Naranja",
         "precio": "29990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/Balon_Futbol_7_4X82O78.png"
     }
 },
 {
@@ -109,7 +115,8 @@
         "nombre": "Medias Calcetas Futbol Antideslizante",
         "precio": "4990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/calzetas_antideslizantes_8F6dpje.png"
     }
 },
 {
@@ -120,7 +127,8 @@
         "nombre": "Guantes de Arquero Reusch Attrakt Freegel Infinity Con 5 Ferulas Fijas",
         "precio": "49990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/Guantes_43padAX.png"
     }
 },
 {
@@ -131,7 +139,8 @@
         "nombre": "Balon VolleyBall molten V5M 1500 Serve - N°5",
         "precio": "25990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/balon_voley_ndaXuOl.png"
     }
 },
 {
@@ -142,7 +151,8 @@
         "nombre": "BALON NIKE LEGACY 2.0 8P DEFLATED UNISEX",
         "precio": "36990.00",
         "fecha_ingreso": "2026-11-17",
-        "en_stock": true
+        "en_stock": true,
+        "imagen": "articulos/basket_eJRKhb7.png"
     }
 }
 ]

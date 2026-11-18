@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'tienda_futbol.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tienda_futbol',
+        'NAME': 'sportvault_db',
         'USER': 'root',
         'PASSWORD': '65495706',
         'HOST': '127.0.0.1',
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-cl'
 
 TIME_ZONE = 'UTC'
 

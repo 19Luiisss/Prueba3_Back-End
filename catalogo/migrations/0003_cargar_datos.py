@@ -1,22 +1,20 @@
-import os
-import codecs
-from django.db import migrations
-from django.core import serializers
-from django.conf import settings
+from django.db import migrations, models
+from django.core.management import call_command
 
 def cargar_datos(apps, schema_editor):
-    ruta_json = os.path.join(settings.BASE_DIR, 'catalogo', 'fixtures', 'fixtures.json')
-    
-    with codecs.open(ruta_json, 'r', encoding='utf-8-sig') as f:
-        objetos = serializers.deserialize('json', f)
-        for obj in objetos:
-            obj.save()
+    call_command('loaddata', 'fixtures', verbosity=0)
 
 class Migration(migrations.Migration):
+
     dependencies = [
-        ('catalogo', '0002_alter_articulo_id_alter_categoria_id'), 
+        ('catalogo', '0002_alter_articulo_id_alter_categoria_id'),
     ]
 
     operations = [
+        migrations.AddField(
+            model_name='articulo',
+            name='imagen',
+            field=models.ImageField(blank=True, null=True, upload_to='articulos/'),
+        ),
         migrations.RunPython(cargar_datos),
     ]
