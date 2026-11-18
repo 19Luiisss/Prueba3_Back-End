@@ -10,6 +10,10 @@
       
       <div class="card-body p-4">
         <h2 class="card-title mb-3">{{ articulo.nombre }}</h2>
+
+        {% if articulo.imagen %}
+            <img src="{{ articulo.imagen.url }}" class="img-fluid rounded mb-4 shadow-sm" style="max-height: 400px; width: 100%; object-fit: cover;" alt="{{ articulo.nombre }}">
+        {% endif %}
         
         <div class="mb-4">
           <span class="badge bg-secondary fs-6">{{ articulo.categoria.nombre }}</span>
@@ -36,7 +40,7 @@
         </ul>
 
         <div class="d-flex justify-content-between mt-4">
-          <a href="{% url 'lista' %}" class="btn btn-outline-secondary">← Volver al catálogo</a>
+          <a href="{% url 'lista' %}" class="btn btn-outline-secondary">Volver al catálogo</a>
           
           {% if user.is_authenticated %}
             <div class="d-flex gap-2">

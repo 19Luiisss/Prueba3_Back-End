@@ -14,6 +14,6 @@ class Articulo(models.Model):
     precio = models.DecimalField(max_digits=8, decimal_places=2)
     fecha_ingreso = models.DateField()
     en_stock = models.BooleanField(default=True)
-
+    imagen = models.ImageField(upload_to='articulos/', blank=True, null=True)
     def __str__(self):
         return f"{self.nombre} ({self.categoria.nombre})"

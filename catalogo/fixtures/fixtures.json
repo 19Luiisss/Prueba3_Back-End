@@ -73,7 +73,7 @@
     "pk": 4,
     "fields": {
         "categoria": 2,
-        "nombre": "Zapatos de f·tbol Goletto IX Pasto SintÚtico",
+        "nombre": "Zapatos de futbol Goletto IX Pasto SintÚtico",
         "precio": "49990.00",
         "fecha_ingreso": "2026-11-17",
         "en_stock": true
@@ -84,7 +84,7 @@
     "pk": 5,
     "fields": {
         "categoria": 3,
-        "nombre": "Pelota De F·tbol Stellar Cup Puma",
+        "nombre": "Pelota De Futbol Stellar Cup Puma",
         "precio": "24990.00",
         "fecha_ingreso": "2026-11-17",
         "en_stock": true
@@ -95,7 +95,7 @@
     "pk": 6,
     "fields": {
         "categoria": 3,
-        "nombre": "Bal¾n Futbol 7 Futbolito Revolucion Logo Anf7 N░5 Kelme Anf7 Naranja",
+        "nombre": "Balon Futbol 7 Futbolito Revolucion Logo Anf7 N°5 Kelme Anf7 Naranja",
         "precio": "29990.00",
         "fecha_ingreso": "2026-11-17",
         "en_stock": true
@@ -128,7 +128,7 @@
     "pk": 9,
     "fields": {
         "categoria": 3,
-        "nombre": "Bal¾n v¾leibol molten V5M 1500 Serve - N░5",
+        "nombre": "Balon VolleyBall molten V5M 1500 Serve - N°5",
         "precio": "25990.00",
         "fecha_ingreso": "2026-11-17",
         "en_stock": true

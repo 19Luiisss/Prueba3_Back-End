@@ -11,4 +11,5 @@ class ArticuloForm(forms.ModelForm):
             'precio': forms.NumberInput(attrs={'class': 'form-control', 'step': '0.01'}),
             'fecha_ingreso': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
             'en_stock': forms.CheckboxInput(attrs={'class': 'form-check-input'}),
+            'imagen': forms.FileInput(attrs={'class': 'form-control'}),
         }
