@@ -37,7 +37,7 @@
           <h5 class="card-title fw-bold text-dark mb-3">{{ articulo.nombre }}</h5>
           
           <div class="mt-auto d-flex justify-content-between align-items-center">
-            <span class="fs-4 fw-bolder text-dark">${{ articulo.precio }}</span>
+            <span class="fs-4 fw-bolder text-dark">${{ articulo.precio|floatformat:"0" }}</span>
             <a href="{% url 'detalle' articulo.pk %}" class="btn btn-outline-dark btn-sm rounded-1 fw-bold">Ver Detalle</a>
           </div>
         </div>
